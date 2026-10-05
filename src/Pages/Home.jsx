@@ -41,6 +41,11 @@ function Home() {
               <div className="card-sub text">View stats</div>
             </button>
 
+            <button className="link-card neon-blue small-link" onClick={() => navigate('/exercises')}>
+              <div className="card-title text">My Exercises</div>
+              <div className="card-sub text">Create your own</div>
+            </button>
+
             <button className="link-card neon-green small-link" onClick={() => {/* TODO: Implement aura board functionality */}}>
               <div className="card-title text">Aura Board</div>
               <div className="card-sub text">See your aura</div>

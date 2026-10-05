@@ -5,6 +5,7 @@ import Signup from './Components/Signup';
 import Brainrot from "./Components/Brainrot";
 import Home from './Pages/Home';
 import Session from './Components/Session';
+import CustomExercises from './Pages/CustomExercises';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/brainrot" element={<Brainrot />} />
             <Route path="/session" element={<Session />} />
+            <Route path="/exercises" element={<CustomExercises />} />
           </Routes>
         </div>
       </div>
